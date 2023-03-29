@@ -323,7 +323,7 @@ footer ul li {
 
 @media(max-width: 380px){
   .navlist li {
-    padding: 0 1rem 0 0;
+    padding: 0 .7rem 0 0;
   }
   h1{
     font-size: 4.5ch;
