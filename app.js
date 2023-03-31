@@ -13,6 +13,6 @@ tl.fromTo(navlist, 0.5, { opacity: 0, x: 20 }, { opacity: 1, x: 0 }, "-=.3");
 
 gsap.to(".logo", { scrollTrigger: ".logo", opacity: 1, x: -40, duration: 1 });
 gsap.to("h3", { scrollTrigger: "h3", opacity: 1, x: -40, duration: 1 });
-gsap.to(".aline", { scrollTrigger: ".mess", scaleX:1, duration: 1 });
+gsap.to(".aline", { scrollTrigger:{ trigger:".mess", scrub:'true',}, scaleX:1, duration: 1 });
 
 
